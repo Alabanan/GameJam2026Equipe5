@@ -30,5 +30,12 @@ text = "Host
 _spawnable_scenes = PackedStringArray("uid://cwegk0yy67v3m")
 spawn_path = NodePath("..")
 
+[node name="TextEdit" type="TextEdit" parent="."]
+offset_left = 59.0
+offset_top = 23.0
+offset_right = 273.0
+offset_bottom = 109.0
+placeholder_text = "IP ADRESS"
+
 [connection signal="pressed" from="join" to="." method="_on_join_pressed"]
 [connection signal="pressed" from="host" to="." method="_on_host_pressed"]
